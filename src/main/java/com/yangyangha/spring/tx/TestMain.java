@@ -14,7 +14,7 @@ public class TestMain
     	
     	User user = new User();
     	user.setUsername("yang yang");
-    	user.setName("yangha new");
+    	user.setName("yangha new ");
     	
     	try{
 //    		testBean.testRequired(user);
