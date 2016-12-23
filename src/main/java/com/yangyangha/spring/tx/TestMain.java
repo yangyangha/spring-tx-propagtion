@@ -5,7 +5,7 @@ import com.yangyangha.spring.tx.test.OuterBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class Main 
+public class TestMain
 {
     public static void main( String[] args )
     {
@@ -13,8 +13,8 @@ public class Main
     	OuterBean testBean = (OuterBean) ctx.getBean("outerBeanImpl");
     	
     	User user = new User();
-    	user.setUsername("yang");
-    	user.setName("yangha");
+    	user.setUsername("yang yang");
+    	user.setName("yangha new");
     	
     	try{
 //    		testBean.testRequired(user);
